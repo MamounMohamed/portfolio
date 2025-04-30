@@ -21,7 +21,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
             className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ease-in-out ${menuOpen ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>Projects</a>
             <a href="#contact" 
             onClick={() => setMenuOpen(false)}
-            className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ease-in-out ${menuOpen ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>Contact</a>
+            className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ease-in-out ${menuOpen ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>Contact Me</a>
 
         </div>
     );

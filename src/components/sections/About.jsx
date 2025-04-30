@@ -6,7 +6,7 @@ export default function About() {
                 <h2 className="text-center text-3xl md:text-5xl font-bold mb-6 leading-right bg-gradient-to-r from-blue-500 to-cyan-600 bg-clip-text text-transparent">About Me</h2>
 
                 <h3 className="text-center text-2xl font-bold mb-4">Education</h3>
-                <div className="mb-8 max-w-2xl mx-auto text-left">
+                <div className="8 max-w-2xl mx-auto text-left px-4 ">
                     <p className="font-semibold">Faculty of Computers and Data Science, Alexandria University</p>
                     <p>Bachelor's of Science in Computer Science, CGPA: 3.52 (A-)</p>
                     <p>Sep 2019 – Jun 2023</p>
@@ -18,7 +18,7 @@ export default function About() {
                 </div>
 
                 <h3 className="text-center text-2xl font-bold mb-4">Skills</h3>
-                <div className="mb-8 max-w-2xl mx-auto text-left">
+                <div className="8 max-w-2xl mx-auto text-left px-4">
                     <ul className="list-disc list-inside text-gray-400">
                         <li><strong>Languages:</strong> C++, Java, Python, PHP, C#, HTML, CSS, JavaScript, TypeScript, SQL</li>
                         <li><strong>Frontend:</strong> React.js, Next.js, Bootstrap, TailwindCSS</li>
@@ -31,7 +31,7 @@ export default function About() {
                 </div>
 
                 <h3 className="text-center text-2xl font-bold mb-4">Coding Competitions</h3>
-                <div className="mb-8 max-w-2xl mx-auto text-left" >
+                <div className="8 max-w-2xl mx-auto text-left px-4" >
                     <ul className="list-disc list-inside text-gray-400">
                         <li><strong>ACPC Finalist, 2023</strong>: Reached regional finals at the Arab & Africa Collegiate Programming Contest, ranking in the top 1% out of 3600+ teams.</li>
                         <li><strong>ECPC Finalist 4x, 2020, 2021, 2022, 2023</strong>: Reached national finals of the Egyptian Collegiate Programming Contest, ranking in the top 10% out of 2500+ teams.</li>

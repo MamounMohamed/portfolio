@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "image": "https://via.placeholder.com/300",
+        "title": "Project 1",
+        "description": "Description of Project 1",
+        "detailedDescription": "Detailed description of Project 1",
+        "techStack": ["React.js", "Node.js", "MongoDB"],
+        "features": ["Feature 1", "Feature 2", "Feature 3"],
+        "link": "https://example.com/project1"
+    },
+    {
+        "id": 2,
+        "image": "https://via.placeholder.com/300",
+        "title": "Project 2",
+        "description": "Description of Project 2",
+        "detailedDescription": "Detailed description of Project 2",
+        "techStack": ["Laravel", "MySQL", "Vue.js"],
+        "features": ["Feature A", "Feature B", "Feature C"],
+        "link": "https://example.com/project2"
+    },
+    {
+        "id": 3,
+        "image": "https://via.placeholder.com/300",
+        "title": "Project 3",
+        "description": "Description of Project 3",
+        "detailedDescription": "Detailed description of Project 3",
+        "techStack": ["Django", "PostgreSQL", "TailwindCSS"],
+        "features": ["Feature X", "Feature Y", "Feature Z"],
+        "link": "https://example.com/project3"
+    }
+]

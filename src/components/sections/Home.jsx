@@ -4,7 +4,7 @@ export default function Home() {
             <div className="text-center px-4 z-10">
 
                 <h1 className="text-5xl md:text-7xl  font-bold mb-6 leading-right bg-gradient-to-r from-blue-500 to-cyan-600 bg-clip-text text-transparent">Mamoun's Portofolio</h1>
-                <p className="text-gray-400 text-lg mb-8 max-w-xl  text-white mx-auto">
+                <p className="text-gray-400 text-lg mb-8 max-w-2xl  text-white px-4 text-left">
                     Hello , I am Mamoun a Full Stack Developer with 2+ years of experience building scalable web applications using modern technologies like React.js,
                     Next.js, Laravel, and Django. Proven ability to collaborate with cross-functional teams, mentor fresh programmers, and deliver
                     high-quality solutions under tight deadlines. Skilled in problem-solving with a strong background in competitive programming.
