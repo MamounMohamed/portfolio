@@ -1,13 +1,14 @@
 [
     {
         "id": 1,
-        "image": "https://via.placeholder.com/300",
-        "title": "Project 1",
-        "description": "Description of Project 1",
-        "detailedDescription": "Detailed description of Project 1",
-        "techStack": ["React.js", "Node.js", "MongoDB"],
-        "features": ["Feature 1", "Feature 2", "Feature 3"],
-        "link": "https://example.com/project1"
+        "image": "src/assets/sabab.webp",
+        "title": "Sabab LMS",
+        "description": "A learning management system for college students with multiple features as self and batch-learning , exams , homeworks and mock exams generation from a question bank , and automatic exam correction for most question types.",
+        "detailedDescription": "A learning management system for college students with multiple features as self and batch-learning , exams , homeworks and mock exams generation from a question bank , and automatic exam correction for most question types.",
+        "techStack": ["React.js","Next.js" , "Laravel" , "MySQL" , "Hostinger Cloud" , "Hostinger VPS" , "Apache2"],
+        "features": ["Question bank" , "Self and batch-learning" , "Exams" , "Homeworks" , "Mock exams generation" , "Automatic exam correction" , "Admin Dashboard" , "Supervisor and Student Dashboards"],
+        "responsibilities" : ["Implemented 20+ pages of the new Figma Design using React.Js and Next.Js" , "Refactored legacy code of the Models and APIs using Laravel 8" , "Developed admin dashboard using laravel-admin" , "Deployed the application on the hositnger cloud" , "Deployed the Frontend on the Hostinger VPS", "Setup the reverse proxy using Apache2" ],
+        "link": "https://sabab-edu.com/"
     },
     {
         "id": 2,
@@ -22,7 +23,7 @@
     {
         "id": 3,
         "image": "https://via.placeholder.com/300",
-        "title": "Project 3",
+        "title": "Rokaya",
         "description": "Description of Project 3",
         "detailedDescription": "Detailed description of Project 3",
         "techStack": ["Django", "PostgreSQL", "TailwindCSS"],
