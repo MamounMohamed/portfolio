@@ -2,7 +2,7 @@
 import './App.css';
 import LoadingScreen from './components/LoadingScreen';
 import { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Project from './components/Project';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -32,7 +32,7 @@ function App() {
   }
 
   return (
-    <Router basename='/Portofolio'>
+    <Router basename='/'>
       <div className="min-h-screen transition-opacity duration-700  text-gray-100">
         {/* <MiniMobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} /> */}
         <Routes>
