@@ -3,7 +3,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import projectsData from '../data/projects.json'; // Import the JSON file
 import DetailCard from './Cards/DetailCard'; // Import the DetailCard component
-
+import MiniNavbar from './MiniNavbar';
 const Project = () => {
     // Find the project by ID
     const { id } = useParams();
@@ -16,6 +16,8 @@ const Project = () => {
     }
 
     return (
+        <> 
+        <MiniNavbar />
         <div id="project" className="min-h-screen flex flex-col items-center justify-center relative  text-white py-20">
             <div className="text-center px-4 z-10 max-w-6xl">
 
@@ -42,6 +44,8 @@ const Project = () => {
 
             </div>
         </div>
+        </>
+
     );
 };
 

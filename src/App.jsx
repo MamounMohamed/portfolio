@@ -37,7 +37,6 @@ function App() {
   return (
     <Router>
       <div className="min-h-screen transition-opacity duration-700  text-gray-100">
-        <MiniNavbar  />
         {/* <MiniMobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} /> */}
         <Routes>
           <Route path="/" element={<Homepage />} />

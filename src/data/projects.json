@@ -3,22 +3,81 @@
         "id": 1,
         "image": "src/assets/sabab.webp",
         "title": "Sabab LMS",
+        "subtitle": "QABED",
         "description": "A learning management system for college students with multiple features as self and batch-learning , exams , homeworks and mock exams generation from a question bank , and automatic exam correction for most question types.",
         "detailedDescription": "A learning management system for college students with multiple features as self and batch-learning , exams , homeworks and mock exams generation from a question bank , and automatic exam correction for most question types.",
-        "techStack": ["React.js","Next.js" , "Laravel" , "MySQL" , "Hostinger Cloud" , "Hostinger VPS" , "Apache2"],
-        "features": ["Question bank" , "Self and batch-learning" , "Exams" , "Homeworks" , "Mock exams generation" , "Automatic exam correction" , "Admin Dashboard" , "Supervisor and Student Dashboards"],
-        "responsibilities" : ["Implemented 20+ pages of the new Figma Design using React.Js and Next.Js" , "Refactored legacy code of the Models and APIs using Laravel 8" , "Developed admin dashboard using laravel-admin" , "Deployed the application on the hositnger cloud" , "Deployed the Frontend on the Hostinger VPS", "Setup the reverse proxy using Apache2" ],
+        "techStack": [
+            "React.js",
+            "Next.js",
+            "Laravel",
+            "MySQL",
+            "Hostinger Cloud",
+            "Hostinger VPS",
+            "Apache2"
+        ],
+        "features": [
+            "Question bank",
+            "Self and batch-learning",
+            "Exams",
+            "Homeworks",
+            "Mock exams generation",
+            "Automatic exam correction",
+            "Admin Dashboard",
+            "Supervisor and Student Dashboards"
+        ],
+        "responsibilities": [
+            "Implemented 20+ pages of the new Figma Design using React.Js and Next.Js",
+            "Refactored legacy code of the Models and APIs using Laravel 8",
+            "Developed admin dashboard using laravel-admin",
+            "Deployed the application on the hositnger cloud",
+            "Deployed the Frontend on the Hostinger VPS",
+            "Setup the reverse proxy using Apache2"
+        ],
         "link": "https://sabab-edu.com/"
     },
     {
         "id": 2,
-        "image": "https://via.placeholder.com/300",
-        "title": "Project 2",
-        "description": "Description of Project 2",
-        "detailedDescription": "Detailed description of Project 2",
-        "techStack": ["Laravel", "MySQL", "Vue.js"],
-        "features": ["Feature A", "Feature B", "Feature C"],
-        "link": "https://example.com/project2"
+        "image": "src/assets/braille.svg",
+        "title": "Braille Learning Platform",
+        "subtitle": "Freelance Project",
+        "description": "A platform for learning braille made with Mobsoroon Association for the Blind in Breda,Saudi Arabia where there are courses and instructors to learn braille from , assessments , certificate generation , and a braille translation tool.",
+        "techStack": [
+            "Django",
+            "Next.js",
+            "React.js",
+            "TailwindCSS",
+            "MySQL",
+            "Redis",
+            "Celery ",
+            "Docker",
+            "S3",
+            "Hostinger VPS",
+            "Apache2"
+        ],
+        "features": [
+            "Courses creation",
+            "Instructors creation",
+            "Assessments generation from lesson content",
+            "Certificate generation",
+            "Braille translation tool",
+            "Admin Dashboard",
+            "Instructor Dashboard",
+            "Instrctor and Student Chat",
+            "Student Dashboard",
+            "Student Progress Tracking",
+            "Student Analytics",
+            "Student Support"
+        ],
+        "responsibilities": [
+            "Translated Figma UI/UX designs into responsive, interfaces using Next.js, React.js, and TailwindCSS",
+            "Built and maintained backend services with Django REST Framework to power application logic and data flow",
+            "Engineered and integrated core application features, ensuring seamless user experiences and functionality",
+            "Configured Docker containers for streamlined development, testing, and deployment workflows",
+            "Deployed Amazon S3 integration for efficient media and file storage management",
+            "Optimized Hostinger VPS infrastructure for scalable and secure application hosting",
+            "Set up and fine-tuned Apache2 server configurations to enhance performance and security"
+        ],
+        "link": "https://braille-learn.com/"
     },
     {
         "id": 3,
@@ -26,8 +85,16 @@
         "title": "Rokaya",
         "description": "Description of Project 3",
         "detailedDescription": "Detailed description of Project 3",
-        "techStack": ["Django", "PostgreSQL", "TailwindCSS"],
-        "features": ["Feature X", "Feature Y", "Feature Z"],
+        "techStack": [
+            "Django",
+            "PostgreSQL",
+            "TailwindCSS"
+        ],
+        "features": [
+            "Feature X",
+            "Feature Y",
+            "Feature Z"
+        ],
         "link": "https://example.com/project3"
     }
 ]

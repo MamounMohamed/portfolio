@@ -4,11 +4,12 @@ import CompetitionCard from '../Cards/CompetitionCard';
 import educationData from '../../data/education.json';
 import competitionData from '../../data/competitions.json';
 import skillsData from '../../data/skills.json';
+import { useState, useEffect } from 'react';
 
 export default function About() {
     return (
         <section id="about" className="min-h-screen flex flex-col items-center justify-center py-20  text-white">
-            <div className="text-center px-4 z-10 max-w-6xl">
+            <div className="text-center px-4 z-10 max-w-6xl ">
 
                 <h2 className="text-3xl md:text-5xl font-bold mb-6 leading-right bg-gradient-to-r from-blue-500 to-cyan-600 bg-clip-text text-transparent">About Me</h2>
 
