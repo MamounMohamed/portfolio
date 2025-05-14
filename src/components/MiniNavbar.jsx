@@ -34,13 +34,13 @@ export default function MiniNavbar() {
     <div className="fixed top-0 left-0 w-full z-40 bg-black backdrop-blur-lg border-b border-gray-900 shadow-md transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <a
-            href="/"
+          <Link 
+            to="/"
             className="flex flex-row items-center gap-2 font-mono text-sm font-bold text-gray-200 "
           >
             <Undo2 aria-label="Back to Homepage"/>
             <span>Back to Homepage</span>
-          </a>
+          </Link>
 
           <button onClick={toggleTheme} className="text-gray-100 cursor-pointer  "> {isDarkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />} </button>
         </div>
