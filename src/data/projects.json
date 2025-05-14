@@ -1,46 +1,12 @@
 [
     {
         "id": 1,
-        "image": "src/assets/sabab.webp",
-        "title": "Sabab LMS",
-        "subtitle": "QABED",
-        "description": "A learning management system for college students with multiple features as self and batch-learning , exams , homeworks and mock exams generation from a question bank , and automatic exam correction for most question types.",
-        "detailedDescription": "A learning management system for college students with multiple features as self and batch-learning , exams , homeworks and mock exams generation from a question bank , and automatic exam correction for most question types.",
-        "techStack": [
-            "React.js",
-            "Next.js",
-            "Laravel",
-            "MySQL",
-            "Hostinger Cloud",
-            "Hostinger VPS",
-            "Apache2"
-        ],
-        "features": [
-            "Question bank",
-            "Self and batch-learning",
-            "Exams",
-            "Homeworks",
-            "Mock exams generation",
-            "Automatic exam correction",
-            "Admin Dashboard",
-            "Supervisor and Student Dashboards"
-        ],
-        "responsibilities": [
-            "Implemented 20+ pages of the new Figma Design using React.Js and Next.Js",
-            "Refactored legacy code of the Models and APIs using Laravel 8",
-            "Developed admin dashboard using laravel-admin",
-            "Deployed the application on the hositnger cloud",
-            "Deployed the Frontend on the Hostinger VPS",
-            "Setup the reverse proxy using Apache2"
-        ],
-        "link": "https://sabab-edu.com/"
-    },
-    {
-        "id": 2,
         "image": "src/assets/braille.svg",
         "title": "Braille Learning Platform",
-        "subtitle": "Freelance Project",
+        "subtitle": "FREELANCE PROJECT",
+        "status": "Completed",
         "description": "A platform for learning braille made with Mobsoroon Association for the Blind in Breda,Saudi Arabia where there are courses and instructors to learn braille from , assessments , certificate generation , and a braille translation tool.",
+        "detailedDescription": "A platform for learning braille made with Mobsoroon Association for the Blind in Breda,Saudi Arabia where there are courses and instructors to learn braille from , assessments , certificate generation , and a braille translation tool.",
         "techStack": [
             "Django",
             "Next.js",
@@ -80,21 +46,188 @@
         "link": "https://braille-learn.com/"
     },
     {
-        "id": 3,
-        "image": "https://via.placeholder.com/300",
-        "title": "Rokaya",
-        "description": "Description of Project 3",
-        "detailedDescription": "Detailed description of Project 3",
+        "id": 2,
+        "image": "src/assets/sabab.webp",
+        "title": "Sabab Learning Management System",
+        "subtitle": "QABED",
+        "status": "Completed",
+        "description": "A learning management system for college students with multiple features as self and batch-learning , exams , homeworks and mock exams generation from a question bank , and automatic exam correction for most question types.",
+        "detailedDescription": "A learning management system for college students with multiple features as self and batch-learning , exams , homeworks and mock exams generation from a question bank , and automatic exam correction for most question types.",
         "techStack": [
-            "Django",
-            "PostgreSQL",
-            "TailwindCSS"
+            "React.js",
+            "Next.js",
+            "Laravel",
+            "MySQL",
+            "Hostinger Cloud",
+            "Hostinger VPS",
+            "Apache2"
         ],
         "features": [
-            "Feature X",
-            "Feature Y",
-            "Feature Z"
+            "Question bank",
+            "Self and batch-learning",
+            "Exams",
+            "Homeworks",
+            "Mock exams generation",
+            "Automatic exam correction",
+            "Performance Reports Generation for students",
+            "Admin Dashboard",
+            "Supervisor and Student Dashboards"
         ],
-        "link": "https://example.com/project3"
-    }
+        "responsibilities": [
+            "Implemented 20+ pages of the new Figma Design using React.Js and Next.Js",
+            "Refactored legacy code of the Models and APIs using Laravel 8",
+            "Developed admin dashboard using laravel-admin",
+            "Deployed the application on the hositnger cloud",
+            "Deployed the Frontend on the Hostinger VPS",
+            "Setup the reverse proxy using Apache2"
+        ],
+        "link": "https://sabab-edu.com/"
+    },
+    {
+        "id": 3,
+        "image": "src/assets/fosol.png",
+        "subtitle": "QABED",
+        "status": "In Progress",
+        "statusDescription": [
+            "The user dashboard frontend is under development.",
+            "The backend is completed."
+        ],
+        "title": "Fosol Learning Management System",
+        "description": "A learning management system for school students with multiple features as exams , homeworks , question banks , virtual classes , exams correction , timetable generation for teachers , guardians dashboard and more.",
+        "detailedDescription": "A learning management system for school students with multiple features as exams , homeworks , question banks , virtual classes , exams correction , timetable generation for teachers , guardians dashboard and more.",
+        "techStack": [
+            "Laravel",
+            "FilamentPHP",
+            "Livewire",
+            "Pest",
+            "Blade",
+            "MySQL",
+            "Hostinger Cloud"
+        ],
+        "features": [
+            "Exams",
+            "Homeworks",
+            "Question banks",
+            "Virtual classes",
+            "Exams correction",
+            "Timetable generation for teachers",
+            "Performance Reports Generation for students",
+            "Student Asks Questions",
+            "Admin Dashboard",
+            "Supervisor Dashboard",
+            "Teacher Dashboard"
+        ],
+        "responsibilities": [
+            "Developed the multiple different user roles dashboards using FilamentPHP",
+            "Implemnted an API service for all the features of the application",
+            "Wrote the 200+ tests for the API using Pest",
+            "Deployed the application on the Hostinger Cloud"
+        ],
+        "link": "https://api-fosol.sabab-edu.com/"
+    },
+    {
+        "id": 4,
+        "image": "src/assets/abwab.png",
+        "title": "Abwab Digital Library",
+        "subtitle": "QABED",
+        "status": "In Progress",
+        "statusDescription": [
+            "The user dashboard frontend is under development.",
+            "The backend is completed."
+        ],
+        "description": "A multivendor digital library where stores can sell their books and articles to the public and users can buy them and read them online.",
+        "detailedDescription": "A multivendor digital library where stores can sell their books and articles to the public and users can buy them and read them online.",
+        "techStack": [
+            "Laravel",
+            "FilamentPHP",
+            "Livewire",
+            "Pest",
+            "Blade",
+            "MySQL",
+            "Hostinger Cloud"
+        ],
+        "features": [
+            "Admin Dashboard",
+            "Vendor Dashboard",
+            "Book Nominator and Judges Dashboard",
+            "Subscription by book specialization",
+            "Digital , Audio and Video books"
+        ],
+        "responsibilities": [
+            "Developed the multiple different user roles dashboards using FilamentPHP",
+            "Implemnted an API service for all the features of the application",
+            "Wrote the 200+ tests for the API using Pest",
+            "Deployed the application on the Hostinger Cloud"
+        ],
+        "link": "https://abwab-api.sabab-edu.com/"
+    },
+
+    {
+        "id": 5,
+        "image": "src/assets/project_placeholder.png",
+        "title": "Inventory Management System",
+        "subtitle": "FREELANCE PROJECT",
+        "status": "Completed",
+        "description": "A full-stack inventory management system developed for the Egyptian Central Security Forces, used across 9 units to manage products and daily issuance for over 1000 officers and recruits.",
+        "detailedDescription": "Developed a robust inventory system tailored for the Egyptian Central Security Forces, deployed across 9 operational units. The system supports the management of 30+ products and facilitates daily issuance and returns for more than 1000 officers and recruits. It includes user-friendly interfaces for product management, issue tracking, and comprehensive reporting features.",
+        "techStack": [
+          "HTML",
+          "CSS",
+          "Bootstrap",
+          "JavaScript",
+          "Django",
+          "SQL"
+        ],
+        "features": [
+          "Product Addition and Management",
+          "Daily Issuance Tracking",
+          "Return Management",
+          "Daily Reporting",
+          "Monthly Consumption Reports",
+          "User-Friendly Interface",
+          "Stock Level Monitoring"
+        ],
+        "responsibilities": [
+          "Designed and implemented a full-stack inventory system using HTML, CSS, Bootstrap, JavaScript, Django, and SQL",
+          "Managed database design and query optimization for efficient data handling",
+          "Created intuitive UI components for seamless product addition and transaction logging",
+          "Developed daily and monthly reporting tools to track product consumption and remaining stock",
+          "Ensured system scalability and usability across 9 different units"
+        ],
+        "link": ""
+      }
+      ,
+      {
+        "id": 6,
+        "image": "src/assets/project_placeholder.png",
+        "title": "Library Management System",
+        "subtitle": "PERSONAL PROJECT",
+        "status": "Completed",
+        "description": "A simple library management system built with Java Spring Boot to manage book borrowing records.",
+        "detailedDescription": "Built a basic library management system using Java Spring Boot following MVC architecture. The app allows managing borrowing records, and includes unit tests for core functionality. Used Spring Data JPA for database interactions and followed clean coding practices.",
+        "techStack": [
+          "Java",
+          "Spring Boot",
+          "Spring Data JPA",
+          "JUnit",
+          "Postman",
+          "H2 Database",
+          "Mockito",
+          "Maven"
+        ],
+        "features": [
+          "Borrowing record management",
+          "Unit testing with JUnit and Mockito",
+          "MVC architecture implementation",
+          "Database integration with Spring Data JPA"
+        ],
+        "responsibilities": [
+          "Developed the backend using Spring Boot",
+          "Wrote unit tests for repositories , service layer methods , controllers ",
+          "Set up data models and repositories using Spring Data JPA",
+          "Followed best practices for code structure and readability for the MVC architecture",
+          "Built the project using Maven"
+        ],
+        "link": "https://github.com/MamounMohamed/library-management"
+      }
 ]

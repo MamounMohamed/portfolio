@@ -38,11 +38,11 @@ export default function MiniNavbar() {
             to="/"
             className="flex flex-row items-center gap-2 font-mono text-sm font-bold text-gray-200 "
           >
-            <Undo2 />
+            <Undo2 aria-label="Back to Homepage" />
             <span>Back to Homepage</span>
           </Link>
 
-          <button onClick={toggleTheme} className="text-gray-900 dark:text-white"> {isDarkMode ? <Sun className="w-5 h-5 text-gray-100" /> : <Moon className="w-5 h-5 text-gray-900" />} </button>
+          <button onClick={toggleTheme} className="text-gray-100  "> {isDarkMode ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />} </button>
         </div>
       </div>
     </div>

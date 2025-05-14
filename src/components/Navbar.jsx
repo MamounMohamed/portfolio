@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 import { Link, useLocation } from 'react-router-dom';
 import { useState } from "react";
-import { Moon, Sun } from 'lucide-react';
+import { List, Moon, Sun } from 'lucide-react';
 export default function Navbar({ menuOpen, setMenuOpen }) {
   const location = useLocation();
 
@@ -42,16 +42,18 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
             Mamoun's <span className="text-blue-500">Portfolio</span>
           </Link>
 
-          <button
-            onClick={toggleTheme}
-            className={`text-gray-900 dark:text-white cursor-pointer`}
-          
-          >
-            {theme === "dark" ? <Moon className="w-5 h-5 text-gray-200" /> : <Sun className="w-5 h-5 text-gray-200" />}
-          </button>
+          <div className="flex items-end gap-2 align-bottom">
+            <button
+              onClick={toggleTheme}
+              className={`text-gray-900 dark:text-white cursor-pointer`}
 
-          <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
-            &#9776;
+            >
+              {theme === "dark" ? <Moon className="w-5 h-5 text-gray-200" aria-label="Toggle Theme" /> : <Sun className="w-5 h-5 text-gray-200" aria-label="Toggle Theme" />}
+            </button>
+
+            <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
+              <List aria-label="Toggle Menu" />
+            </div>
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
