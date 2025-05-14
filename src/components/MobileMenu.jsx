@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function MobileMenu({ menuOpen, setMenuOpen }) {
     return (
         <div className={`fixed top-0 left-0 w-full bg-[rgba(10,10,10,0.8)] z-40 flex flex-col items-center justify-center transition-all duration-300 ease-in-out overflow-hidden
@@ -8,19 +10,19 @@ export default function MobileMenu({ menuOpen, setMenuOpen }) {
                 &times;
             </button>
 
-            <a href="/home"
+            <Link  to="/"
                 onClick={() => setMenuOpen(false)}
-                className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ease-in-out ${menuOpen ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>Home</a>
+                className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ease-in-out ${menuOpen ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>Home</Link>
 
-            <a href="/about"
+            <Link  to="/about"
             onClick={() => setMenuOpen(false)}
-            className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ease-in-out ${menuOpen ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>About Me</a>
-            <a href="/projects"
+            className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ease-in-out ${menuOpen ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>About Me</Link>
+            <Link to="/projects"
             onClick={() => setMenuOpen(false)}
-            className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ease-in-out ${menuOpen ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>Projects</a>
-            <a href="/contact"
+            className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ease-in-out ${menuOpen ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>Projects</Link>
+            <Link to="/contact"
             onClick={() => setMenuOpen(false)}
-            className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ease-in-out ${menuOpen ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>Contact Me</a>
+            className={`text-2xl font-semibold text-white my-4 transform transition-transform duration-300 ease-in-out ${menuOpen ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'}`}>Contact Me</Link>
 
         </div>
     );

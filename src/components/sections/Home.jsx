@@ -4,7 +4,6 @@ import Navbar from "../Navbar";
 export default function Home() {
     return (
         <>
-        <Navbar />
         <section id="home" className="min-h-screen flex items-center justify-center relative">
             <div className="text-center px-4 z-10">
 

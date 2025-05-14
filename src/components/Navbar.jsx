@@ -66,16 +66,14 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
         </div>
       </div>
       {/* Mobile Menu */}
-      {menuOpen && (
-        <div className="md:hidden">
-          <div className="px-4 py-3 space-y-1">
+      {/* {menuOpen && (
+        <div className="md:hidden ">
             <Link to="/" className={`block hover:text-blue-500 ${isActive('/') ? 'text-blue-500' : ''}`}>Home</Link>
             <Link to="/about" className={`block hover:text-blue-500 ${isActive('/') ? 'text-blue-500' : ''}`}>About</Link>
             <Link to="/projects" className={`block hover:text-blue-500 ${isActive('/') ? 'text-blue-500' : ''}`}>Projects</Link>
             <Link to="/contact" className={`block hover:text-blue-500 ${isActive('/') ? 'text-blue-500' : ''}`}>Contact</Link>
-          </div>
         </div>
-      )}
+      )} */}
     </nav>
   );
 }
