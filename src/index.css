@@ -26,11 +26,11 @@ html , body {
   color: #000000;
 }
 
-.text-absolute-white {
+.dark .text-white {
   color: #ffffff;
 }
 
-.dark .text-absolute-white {
+.text-absolute-white {
   color: #ffffff;
 }
 
