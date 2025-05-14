@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "src/assets/braille.svg",
+        "image": "/assets/braille.svg",
         "title": "Braille Learning Platform",
         "subtitle": "FREELANCE PROJECT",
         "status": "Completed",
@@ -47,7 +47,7 @@
     },
     {
         "id": 2,
-        "image": "src/assets/sabab.webp",
+        "image": "/assets/sabab.webp",
         "title": "Sabab Learning Management System",
         "subtitle": "QABED",
         "status": "Completed",
@@ -85,7 +85,7 @@
     },
     {
         "id": 3,
-        "image": "src/assets/fosol.png",
+        "image": "/assets/fosol.png",
         "subtitle": "QABED",
         "status": "In Progress",
         "statusDescription": [
@@ -127,7 +127,7 @@
     },
     {
         "id": 4,
-        "image": "src/assets/abwab.png",
+        "image": "/assets/abwab.png",
         "title": "Abwab Digital Library",
         "subtitle": "QABED",
         "status": "In Progress",
@@ -164,7 +164,7 @@
 
     {
         "id": 5,
-        "image": "src/assets/project_placeholder.png",
+        "image": "/assets/project_placeholder.png",
         "title": "Inventory Management System",
         "subtitle": "FREELANCE PROJECT",
         "status": "Completed",
@@ -199,7 +199,7 @@
       ,
       {
         "id": 6,
-        "image": "src/assets/project_placeholder.png",
+        "image": "/assets/project_placeholder.png",
         "title": "Library Management System",
         "subtitle": "PERSONAL PROJECT",
         "status": "Completed",
