@@ -2,9 +2,11 @@
 import React from 'react';
 import ProjectCard from '../Cards/ProjectCard';
 import projectsData from '../../data/projects.json'; // Import the JSON file
-
+import MiniNavbar from '../MiniNavbar';
 const Projects = () => {
     return (
+        <>
+        <MiniNavbar />
         <section id="projects" className="min-h-screen flex items-center justify-center relative py-20">
             <div className="text-center px-4 z-10">
                 <h2 className="text-3xl md:text-5xl font-bold mb-6 leading-right bg-gradient-to-r from-blue-500 to-cyan-600 bg-clip-text text-transparent">Projects</h2>
@@ -24,6 +26,7 @@ const Projects = () => {
 
             </div>
         </section>
+        </>
     );
 };
 

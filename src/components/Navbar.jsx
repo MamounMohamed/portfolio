@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { Link, useLocation } from 'react-router-dom';
 import { useState } from "react";
 import { List, Moon, Sun } from 'lucide-react';
+
 export default function Navbar({ menuOpen, setMenuOpen }) {
   const location = useLocation();
 
@@ -35,7 +36,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
   const isActive = (path) => location.pathname === path || (location.pathname === '/' && path === '#home');
 
   return (
-    <nav className="fixed top-0 w-full z-40 bg-black border-gray-800 backdrop-blur-lg border-b  shadow-md transition-colors duration-300 text-gray-200">
+    <nav className="fixed top-0 w-full z-41 bg-black border-gray-800 backdrop-blur-lg border-b  shadow-md transition-colors duration-300 text-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="font-mono text-xl font-bold ">
@@ -57,10 +58,10 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
-            <a href="/#home" className={`hover:text-blue-500 ${isActive('/') ? 'text-blue-500' : ''}`}>Home</a>
-            <a href="/#about" className={`hover:text-blue-500 ${isActive('/') ? 'text-blue-500' : ''}`}>About</a>
-            <a href="/#projects" className={`hover:text-blue-500 ${isActive('/') ? 'text-blue-500' : ''}`}>Projects</a>
-            <a href="/#contact" className={`hover:text-blue-500 ${isActive('/') ? 'text-blue-500' : ''}`}>Contact</a>
+            <Link to="/" className={`hover:text-blue-500 ${isActive('/') ? 'text-blue-500' : ''}`}>Home</Link>
+            <Link to="/about" className={`hover:text-blue-500 ${isActive('/') ? 'text-blue-500' : ''}`}>About</Link>
+            <Link to="/projects" className={`hover:text-blue-500 ${isActive('/') ? 'text-blue-500' : ''}`}>Projects</Link>
+            <Link to="/contact" className={`hover:text-blue-500 ${isActive('/') ? 'text-blue-500' : ''}`}>Contact</Link>
           </div>
         </div>
       </div>
@@ -68,10 +69,10 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
       {menuOpen && (
         <div className="md:hidden">
           <div className="px-4 py-3 space-y-1">
-            <a href="/" className={`block hover:text-blue-500 ${isActive('/') ? 'text-blue-500' : ''}`}>Home</a>
-            <a href="/#about" className={`block hover:text-blue-500 ${isActive('/') ? 'text-blue-500' : ''}`}>About</a>
-            <a href="/#projects" className={`block hover:text-blue-500 ${isActive('/') ? 'text-blue-500' : ''}`}>Projects</a>
-            <a href="/#contact" className={`block hover:text-blue-500 ${isActive('/') ? 'text-blue-500' : ''}`}>Contact</a>
+            <Link to="/" className={`block hover:text-blue-500 ${isActive('/') ? 'text-blue-500' : ''}`}>Home</Link>
+            <Link to="/about" className={`block hover:text-blue-500 ${isActive('/') ? 'text-blue-500' : ''}`}>About</Link>
+            <Link to="/projects" className={`block hover:text-blue-500 ${isActive('/') ? 'text-blue-500' : ''}`}>Projects</Link>
+            <Link to="/contact" className={`block hover:text-blue-500 ${isActive('/') ? 'text-blue-500' : ''}`}>Contact</Link>
           </div>
         </div>
       )}

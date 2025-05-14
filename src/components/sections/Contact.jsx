@@ -1,7 +1,10 @@
 import ContactCard from '../Cards/ContactCard';
 import contactsData from '../../data/contacts.json';
+import MiniNavbar from '../MiniNavbar';
 export default function Contact() {
     return (
+        <>
+        <MiniNavbar />
         <section id="contact" className="min-h-screen flex flex-col items-center justify-center relative  text-white py-20">
             <div className="text-center px-4 z-10">
 
@@ -15,5 +18,6 @@ export default function Contact() {
                 </div>
             </div>
         </section>
+        </>
     );
 };
