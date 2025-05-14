@@ -25,9 +25,15 @@ html , body {
 .text-white {
   color: #000000;
 }
-.dark .text-white {
+
+.text-absolute-white {
   color: #ffffff;
 }
+
+.dark .text-absolute-white {
+  color: #ffffff;
+}
+
 
 .text-gray-100 {
   color: #111827; /* gray-900 (darkest) */
