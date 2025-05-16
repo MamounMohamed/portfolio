@@ -20,7 +20,7 @@ export default function LoadingScreen({onComplete}) {
     }, [onComplete]);
   return (
     <div className={`fixed ${darkMode?'bg-white' : 'bg-black'} inset-0 z-50  flex flex-col justify-center items-center`}>
-      <div className={`mb-4 text-2xl md:text-3xl lg:md-4xl font-mono font-bold ${darkMode? 'text-gray-900' : 'text-gray-100'} text-center`}>
+      <div className={`mb-4 text-2xl md:text-3xl lg:text-4xl font-mono font-bold ${darkMode? 'text-gray-900' : 'text-gray-100'} text-center`}>
       {text} <span className="animate-blink">|</span>
       </div>
       <div className="w-[200px] h-[2px] bg-gray-200 rounded relative overflow-hidden">
