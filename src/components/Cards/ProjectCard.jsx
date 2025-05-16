@@ -9,10 +9,10 @@ const ProjectCard = ({ id, image, title, subtitle, status, statusDescription, de
                 <div className="font-bold text-xl mb-2">{title}</div>
                 <div className="text-gray-400 text-lg text-center mb-1">{subtitle}</div>
                 {status === "Completed" ? (
-                    <span className="bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-gray-700 dark:text-green-400 border border-green-400"> {status} </span>
+                    <span className="bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm  border border-green-400"> {status} </span>
 
                 ) : (
-                    <span className=" bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-gray-700 dark:text-yellow-300 border border-yellow-300">{status}</span>
+                    <span className=" bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm  border border-yellow-300">{status}</span>
 
                 )}
 

@@ -1,20 +1,16 @@
 import React, { useEffect, useState } from "react";
 
-
+const darkMode = localStorage.getItem("theme") === "dark";
 export default function LoadingScreen({onComplete}) {
   const [text,setText] = useState("");
     const fullText = "<Mamoun's Portofolio/>;";
     useEffect(() => {
         let index = 0;
         const interval = setInterval(() => {
-            setText(fullText.substring(0, index));
+            setText(fullText.slice(0, index));
             index++;
-            if (index > fullText.length) {
-                clearInterval(interval);
-                setTimeout(() => {
-                    onComplete();
-                }, 800);
-        
+            if (index === fullText.length) {
+                clearInterval(interval);        
             }
         }, 100);
         return () => {
@@ -23,8 +19,8 @@ export default function LoadingScreen({onComplete}) {
 
     }, [onComplete]);
   return (
-    <div className="fixed inset-0 z-50 bg-black flex flex-col justify-center items-center">
-      <div className="mb-4 text-4xl font-mono font-bold ">
+    <div className={`fixed ${darkMode?'bg-white' : 'bg-black'} inset-0 z-50  flex flex-col justify-center items-center`}>
+      <div className={`mb-4 text-4xl font-mono font-bold ${darkMode? 'text-gray-900' : 'text-gray-100'} text-center`}>
       {text} <span className="animate-blink">|</span>
       </div>
       <div className="w-[200px] h-[2px] bg-gray-200 rounded relative overflow-hidden">

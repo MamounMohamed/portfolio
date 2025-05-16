@@ -17,12 +17,13 @@ import Contact from './components/sections/Contact';
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
     // Simulate a loading delay
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 2000); // 2 seconds delay for loading
+    }, 3000); // 2 seconds delay for loading
 
     return () => clearTimeout(timer);
   }, []);
