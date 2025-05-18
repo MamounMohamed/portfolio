@@ -16,23 +16,13 @@ Welcome to my **personal developer portfolio**, built using **React.js**, **Tail
 
 ---
 
-## 📁 Project Structure
-
-src/
-├── components/ # Reusable UI components (e.g., ExperienceCard, EducationCard)
-├── data/ # JSON or JS files for dynamic content
-├── assets/ # Images and icons
-├── App.jsx # Main layout and routes
-├── main.jsx # Entry point
-└── index.css # Tailwind styles
-
-##📬 Contact
+## 📬 Contact
 If you'd like to connect or collaborate:
 
-- ***🔗 LinkedIn ***
+- 🔗 LinkedIn 
 [https://www.linkedin.com/in/mamoun-mohamed-711]
 
-- ***📧 Email ***
+- 📧 Email 
 [mamounmohamed711@gmail.com]
 
-
+---
