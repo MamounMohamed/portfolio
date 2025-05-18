@@ -47,8 +47,8 @@
     },
     {
         "id": 2,
-        "image": "https://mamounmohamed.github.io/Portofolio/sabab.webp",
-        "title": "Sabab Learning Management System",
+        "image": "https://mamounmohamed.github.io/Portofolio/Qabed.png",
+        "title": "Learning Management System",
         "subtitle": "QABED",
         "status": "Completed",
         "description": "A learning management system for college students with multiple features as self and batch-learning , exams , homeworks and mock exams generation from a question bank , and automatic exam correction for most question types.",
@@ -85,14 +85,14 @@
     },
     {
         "id": 3,
-        "image": "https://mamounmohamed.github.io/Portofolio/fosol.png",
+        "image": "https://mamounmohamed.github.io/Portofolio/Qabed.png",
         "subtitle": "QABED",
         "status": "In Progress",
         "statusDescription": [
             "The user dashboard frontend is under development.",
             "The backend is completed."
         ],
-        "title": "Fosol Learning Management System",
+        "title": "Learning Management System for School Students",
         "description": "A learning management system for school students with multiple features as exams , homeworks , question banks , virtual classes , exams correction , timetable generation for teachers , guardians dashboard and more.",
         "detailedDescription": "A learning management system for school students with multiple features as exams , homeworks , question banks , virtual classes , exams correction , timetable generation for teachers , guardians dashboard and more.",
         "techStack": [
@@ -127,8 +127,8 @@
     },
     {
         "id": 4,
-        "image": "https://mamounmohamed.github.io/Portofolio/abwab.png",
-        "title": "Abwab Digital Library",
+        "image": "https://mamounmohamed.github.io/Portofolio/Qabed.png",
+        "title": "Multi-Vendor Digital Library",
         "subtitle": "QABED",
         "status": "In Progress",
         "statusDescription": [
@@ -229,5 +229,38 @@
           "Built the project using Maven"
         ],
         "link": "https://github.com/MamounMohamed/library-management"
+      },
+      {
+        "id": 7,
+        "image": "https://mamounmohamed.github.io/Portofolio/project_placeholder.png",
+        "title": "Contact Scheduler",
+        "subtitle": "PERSONAL PROJECT",
+        "status": "Completed",
+        "description": "A simple contact scheduler built with React.js and Laravel to manage contacts and their schedules.",
+        "detailedDescription": "Built a basic contact scheduler using React.js and Laravel to manage contacts and their schedules.",
+        "techStack": [
+            "Laravel",
+            "React.js",
+            "Inertia.js",
+            "TailwindCSS",
+            "Railway"
+        ],
+        "features": [
+            "Contact Management",
+            "Schedule Management",
+            "User Authentication",
+            "User Interface", 
+            "Platform Management",
+            "CRUD Operations",
+            "Job Scheduler"
+        ],
+        "responsibilities": [
+            "Developed the backend using Laravel",
+            "Developed the frontend using React.js and Inertia.js",
+            "Implemented laravel job scheduler to send notifications to the users",
+            "Deployed the application on Railway"
+
+        ],
+        "link": "https://content-scheduler.up.railway.app/"
       }
 ]

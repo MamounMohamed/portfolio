@@ -9,7 +9,6 @@ import MiniNavbar from '../MiniNavbar';
 export default function About() {
     return (
         <>
-        <MiniNavbar />
         <section id="about" className="min-h-screen flex flex-col items-center justify-center py-20  text-white ">
             <div className="text-center px-4 z-10 max-w-6xl ">
 

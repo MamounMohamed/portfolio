@@ -33,35 +33,54 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
     setTheme(newTheme);
   };
 
-  const isActive = (path) => location.pathname === path || (location.pathname === '/' && path === '#home');
+  const isActive = (path) => {
+    return location.pathname === path ||
+      (location.pathname === '/' && path === '/#/')
+      || (location.pathname === '/experience' && path === '/#/experience')
+      || (location.pathname === '/education' && path === '/#/education')
+      || (location.pathname === '/skills' && path === '/#/skills')
+      || (location.pathname === '/projects' && path === '/#/projects')
+      || (location.pathname === '/coding-competitions' && path === '/#/coding-competitions')
+      || (location.pathname === '/contact' && path === '/#/contact')
+
+  }
 
   return (
     <nav className="fixed top-0 w-full z-41 bg-black border-gray-800 backdrop-blur-lg border-b  shadow-md transition-colors duration-300 text-gray-200">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="font-mono text-xl font-bold ">
             Mamoun's <span className="text-blue-500">Portfolio</span>
           </Link>
 
-          <div className="flex items-end gap-2 align-bottom">
-            <button
-              onClick={toggleTheme}
-              className={`text-gray-900 dark:text-white cursor-pointer`}
+          <div className="flex items-center gap-4">
 
-            >
-              {theme === "dark" ? <Moon className="w-5 h-5 text-gray-200" aria-label="Toggle Theme" /> : <Sun className="w-5 h-5 text-gray-200" aria-label="Toggle Theme" />}
-            </button>
-
-            <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
+            <div className="relative cursor-pointer z-40 lg:hidden" onClick={() => setMenuOpen(!menuOpen)}>
               <List aria-label="Toggle Menu" />
             </div>
-          </div>
 
-          <div className="hidden md:flex items-center space-x-8">
-            <Link to="/" className={`hover:text-blue-500 ${isActive('/') ? 'text-blue-500' : ''}`}>Home</Link>
-            <Link to="/about" className={`hover:text-blue-500 ${isActive('/') ? 'text-blue-500' : ''}`}>About</Link>
-            <Link to="/projects" className={`hover:text-blue-500 ${isActive('/') ? 'text-blue-500' : ''}`}>Projects</Link>
-            <Link to="/contact" className={`hover:text-blue-500 ${isActive('/') ? 'text-blue-500' : ''}`}>Contact</Link>
+            <div className="flex flex-row items-center gap-5">
+
+              <button
+                onClick={toggleTheme}
+                className={`text-gray-900 dark:text-white cursor-pointer`}
+
+              >
+                {theme === "dark" ? <Moon className="text-gray-200" aria-label="Toggle Theme" /> : <Sun className="text-gray-200" aria-label="Toggle Theme" />}
+              </button>
+
+
+
+              <div className="hidden lg:flex items-center space-x-8">
+                <Link to="/" className=  {`hover:text-blue-500  ${isActive('/') ? 'text-blue-500' : ''}`}>Home</Link>
+                <Link to="/experience" className=  {`hover:text-blue-500  ${isActive('/experience') ? 'text-blue-500' : ''}`}>Experience</Link>
+                <Link to="/education" className=  {`hover:text-blue-500  ${isActive('/education') ? 'text-blue-500' : ''}`}>Education</Link>
+                <Link to="/skills" className=  {`hover:text-blue-500  ${isActive('/skills') ? 'text-blue-500' : ''}`}>Skills</Link>
+                <Link to="/projects" className={  `hover:text-blue-500   ${isActive('/projects') ? 'text-blue-500' : ''}`}>Projects</Link>
+                <Link to="/coding-competitions" className=  {`hover:text-blue-500  ${isActive('/coding-competitions') ? 'text-blue-500' : ''}`}>Coding Competitions</Link>
+                <Link to="/contact" className={`hover:text-blue-500    ${isActive('/contact') ? 'text-blue-500' : ''}`}>Contact Me</Link>
+              </div>
+            </div>
           </div>
         </div>
       </div>
