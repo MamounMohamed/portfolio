@@ -4,8 +4,6 @@ Welcome to my **personal developer portfolio**, built using **React.js**, **Tail
 
 🔗 **Live Demo**: [mamounmohamed.github.io/Portofolio](https://mamounmohamed.github.io/Portofolio/)
 
-![Portfolio Screenshot](./preview.png) <!-- Optional: Replace or remove this line -->
-
 ---
 
 ## 🛠️ Tech Stack
@@ -25,4 +23,3 @@ If you'd like to connect or collaborate:
 - 📧 Email 
 [mamounmohamed711@gmail.com]
 
----
