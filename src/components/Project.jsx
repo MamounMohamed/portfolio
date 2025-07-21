@@ -10,7 +10,7 @@ const Project = () => {
     const { id } = useParams();
 
     // Find the project by ID
-    const project = projectsData.find(p => p.id === parseInt(id));
+    const project = projectsData.find(p => p.id === id);
 
     if (!project) {
         return <div className="text-center text-2xl font-bold mt-10">Project not found</div>;

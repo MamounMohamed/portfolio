@@ -1,7 +1,7 @@
 [
     {
-        "id": 1,
-        "image": "https://mamounmohamed.github.io/Portofolio/braille.svg",
+        "id": "braille-learning-platform",
+        "image": "https://mamounmohamed.github.io/portfolio/braille.svg",
         "title": "Braille Learning Platform",
         "subtitle": "FREELANCE PROJECT",
         "status": "Completed",
@@ -46,8 +46,42 @@
         "link": "https://braille-learn.com/"
     },
     {
-        "id": 2,
-        "image": "https://mamounmohamed.github.io/Portofolio/Qabed.png",
+        "id": "kaleem-wellbeing-hub",
+        "image": "https://mamounmohamed.github.io/portfolio/kaleem.webp",
+        "title": "Kaleem Wellbeing Hub",
+        "subtitle": "QABED",
+        "status": "Completed",
+        "description": "A mental health platform that connects users with counselors for consultations, live chat, and mental health support services.",
+        "detailedDescription": "A full-stack wellbeing platform that allows users to book consultations with counselors, engage in real-time chats, and receive notifications. The system supports counselor applications, booking workflows, mailing services, and admin dashboards.",
+        "techStack": [
+            "Vite",
+            "React.js",
+            "TypeScript",
+            "Laravel",
+            "Pusher",
+            "MySQL",
+            "Docker",
+            "GitHub Actions"
+        ],
+        "features": [
+            "Real-time chat system using Pusher",
+            "Live notifications for users and counselors",
+            "Consultation booking and management",
+            "Counselor application and onboarding",
+            "Admin dashboard",
+            "Mail services and status updates"
+        ],
+        "responsibilities": [
+            "Led frontend development using Vite, React.js, and TypeScript",
+            "Implemented real-time chat and notification features using dual-channel Pusher setup",
+            "Built and integrated backend features including booking, applications, and mailing services",
+            "Set up CI/CD workflows for deployment using GitHub Actions"
+        ],
+        "link": "https://kaleemai.com/"
+    },
+    {
+        "id": "learning-management-system",
+        "image": "https://mamounmohamed.github.io/portfolio/Qabed.png",
         "title": "Learning Management System",
         "subtitle": "QABED",
         "status": "Completed",
@@ -84,8 +118,8 @@
         "link": "https://sabab-edu.com/"
     },
     {
-        "id": 3,
-        "image": "https://mamounmohamed.github.io/Portofolio/Qabed.png",
+        "id": "fosol-api",
+        "image": "https://mamounmohamed.github.io/portfolio/Qabed.png",
         "subtitle": "QABED",
         "status": "In Progress",
         "statusDescription": [
@@ -126,8 +160,8 @@
         "link": "https://fosol-api.sabab-edu.com/"
     },
     {
-        "id": 4,
-        "image": "https://mamounmohamed.github.io/Portofolio/Qabed.png",
+        "id": "abwab-api",
+        "image": "https://mamounmohamed.github.io/portfolio/Qabed.png",
         "title": "Multi-Vendor Digital Library",
         "subtitle": "QABED",
         "status": "In Progress",
@@ -161,82 +195,80 @@
         ],
         "link": "https://abwab-api.sabab-edu.com/"
     },
-
     {
-        "id": 5,
-        "image": "https://mamounmohamed.github.io/Portofolio/project_placeholder.png",
+        "id": "inventory-management-system",
+        "image": "https://mamounmohamed.github.io/portfolio/project_placeholder.png",
         "title": "Inventory Management System",
         "subtitle": "FREELANCE PROJECT",
         "status": "Completed",
         "description": "A full-stack inventory management system developed for the Egyptian Central Security Forces, used across 9 units to manage products and daily issuance for over 1000 officers and recruits.",
         "detailedDescription": "Developed a robust inventory system tailored for the Egyptian Central Security Forces, deployed across 9 operational units. The system supports the management of 30+ products and facilitates daily issuance and returns for more than 1000 officers and recruits. It includes user-friendly interfaces for product management, issue tracking, and comprehensive reporting features.",
         "techStack": [
-          "HTML",
-          "CSS",
-          "Bootstrap",
-          "JavaScript",
-          "Django",
-          "SQL"
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "JavaScript",
+            "Django",
+            "SQL"
         ],
         "features": [
-          "Product Addition and Management",
-          "Daily Issuance Tracking",
-          "Return Management",
-          "Daily Reporting",
-          "Monthly Consumption Reports",
-          "User-Friendly Interface",
-          "Stock Level Monitoring"
+            "Product Addition and Management",
+            "Daily Issuance Tracking",
+            "Return Management",
+            "Daily Reporting",
+            "Monthly Consumption Reports",
+            "User-Friendly Interface",
+            "Stock Level Monitoring"
         ],
         "responsibilities": [
-          "Designed and implemented a full-stack inventory system using HTML, CSS, Bootstrap, JavaScript, Django, and SQL",
-          "Managed database design and query optimization for efficient data handling",
-          "Created intuitive UI components for seamless product addition and transaction logging",
-          "Developed daily and monthly reporting tools to track product consumption and remaining stock",
-          "Ensured system scalability and usability across 9 different units"
+            "Designed and implemented a full-stack inventory system using HTML, CSS, Bootstrap, JavaScript, Django, and SQL",
+            "Managed database design and query optimization for efficient data handling",
+            "Created intuitive UI components for seamless product addition and transaction logging",
+            "Developed daily and monthly reporting tools to track product consumption and remaining stock",
+            "Ensured system scalability and usability across 9 different units"
         ],
         "link": ""
-      }
-      ,
-      {
-        "id": 6,
-        "image": "https://mamounmohamed.github.io/Portofolio/project_placeholder.png",
+    },
+    {
+        "id": "library-management-system",
+        "image": "https://mamounmohamed.github.io/portfolio/project_placeholder.png",
         "title": "Library Management System",
         "subtitle": "PERSONAL PROJECT",
         "status": "Completed",
         "description": "A simple library management system built with Java Spring Boot to manage book borrowing records.",
         "detailedDescription": "Built a basic library management system using Java Spring Boot following MVC architecture. The app allows managing borrowing records, and includes unit tests for core functionality. Used Spring Data JPA for database interactions and followed clean coding practices.",
         "techStack": [
-          "Java",
-          "Spring Boot",
-          "Spring Data JPA",
-          "JUnit",
-          "Postman",
-          "H2 Database",
-          "Mockito",
-          "Maven"
+            "Java",
+            "Spring Boot",
+            "Spring Data JPA",
+            "JUnit",
+            "Postman",
+            "H2 Database",
+            "Mockito",
+            "Maven"
         ],
         "features": [
-          "Borrowing record management",
-          "Unit testing with JUnit and Mockito",
-          "MVC architecture implementation",
-          "Database integration with Spring Data JPA"
+            "Borrowing record management",
+            "Unit testing with JUnit and Mockito",
+            "MVC architecture implementation",
+            "Database integration with Spring Data JPA"
         ],
         "responsibilities": [
-          "Developed the backend using Spring Boot",
-          "Wrote unit tests for repositories , service layer methods , controllers ",
-          "Set up data models and repositories using Spring Data JPA",
-          "Followed best practices for code structure and readability for the MVC architecture",
-          "Built the project using Maven"
+            "Developed the backend using Spring Boot",
+            "Wrote unit tests for repositories , service layer methods , controllers ",
+            "Set up data models and repositories using Spring Data JPA",
+            "Followed best practices for code structure and readability for the MVC architecture",
+            "Built the project using Maven"
         ],
         "link": "https://github.com/MamounMohamed/library-management"
-      },
-      {
-        "id": 7,
-        "image": "https://mamounmohamed.github.io/Portofolio/project_placeholder.png",
-        "title": "Contact Scheduler",
+    },
+    {
+        "id": "content-scheduler",
+        "image": "https://mamounmohamed.github.io/portfolio/project_placeholder.png",
+        "title": "Content Scheduler",
         "subtitle": "PERSONAL PROJECT",
         "status": "Completed",
-        "description": "A simple contact scheduler built with React.js and Laravel to manage contacts and their schedules.",
+        "description": "A simple content scheduler built with React.js and Laravel to manage contacts and their schedules.",
         "detailedDescription": "Built a basic contact scheduler using React.js and Laravel to manage contacts and their schedules.",
         "techStack": [
             "Laravel",
@@ -249,7 +281,7 @@
             "Contact Management",
             "Schedule Management",
             "User Authentication",
-            "User Interface", 
+            "User Interface",
             "Platform Management",
             "CRUD Operations",
             "Job Scheduler"
@@ -259,8 +291,7 @@
             "Developed the frontend using React.js and Inertia.js",
             "Implemented laravel job scheduler to send notifications to the users",
             "Deployed the application on Railway"
-
         ],
         "link": "https://content-scheduler.up.railway.app/"
-      }
+    }
 ]
