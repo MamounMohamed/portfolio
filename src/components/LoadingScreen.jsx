@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 const darkMode = localStorage.getItem("theme") === "dark";
 export default function LoadingScreen({onComplete}) {
   const [text,setText] = useState("");
-    const fullText = "<Mamoun's Portofolio/>;";
+    const fullText = "<Mamoun's Portfolio/>;";
     useEffect(() => {
         let index = 0;
         const interval = setInterval(() => {
