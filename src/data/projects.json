@@ -80,7 +80,7 @@
         "link": "https://kaleemai.com/"
     },
 {
-  "id": 9,
+  "id": "green-saudi-application",
   "image": "https://mamounmohamed.github.io/portfolio/",
   "title": "Green Saudi Application (Backend)",
   "subtitle": "FREELANCE PROJECT",
@@ -90,8 +90,9 @@
   "techStack": [
     "Java",
     "Spring Boot",
-    "Spring Data JPA",
-    "PostgreSQL",
+    "Maven",
+    "Nginx",
+    "MySQL",
     "Swagger",
     "Docker",
     "Hostinger VPS"
