@@ -1,30 +1,30 @@
 [
-    {
-        "title": "Languages",
-        "skills": ["C++", "Java", "Python", "PHP", "C#", "HTML", "CSS", "JavaScript", "TypeScript", "SQL"]
-    },
-    {
-        "title": "Frontend",
-        "skills": ["React.js", "Next.js", "Bootstrap", "TailwindCSS"]
-    },
-    {
-        "title": "Backend",
-        "skills": ["Laravel", "Django", "Spring Boot"]
-    },
-    {
-        "title": "Databases",
-        "skills": ["MySQL", "PostgreSQL", "MongoDB", "Redis"]
-    },
-    {
-        "title": "DevOps",
-        "skills": ["Docker", "AWS (EC2)", "Google Cloud Platform (GCF, GCS)", "Hostinger (VPS, Cloud)"]
-    },
-    {
-        "title": "Tools",
-        "skills": ["VS Code", "Git", "GitHub", "Postman", "Docker Hub"]
-    },
-    {
-        "title": "Concepts",
-        "skills": ["Data Structures", "Algorithms", "OOP", "Design Patterns", "SOLID Principles", "REST API", "MVC Architecture", "Unit Testing"]
-    }
+  {
+    "title": "Languages",
+    "skills": ["C++", "Java", "Python", "PHP", "C#", "JavaScript", "TypeScript", "SQL"]
+  },
+  {
+    "title": "Frontend",
+    "skills": ["HTML", "CSS", "React.js", "Next.js", "Vite", "Bootstrap", "TailwindCSS"]
+  },
+  {
+    "title": "Backend",
+    "skills": ["Laravel", "Django", "Spring Boot"]
+  },
+  {
+    "title": "DevOps",
+    "skills": ["Docker", "GitHub", "AWS (EC2, S3)", "Hostinger (VPS, Cloud)", "Apache2", "Nginx", "CI/CD", "GitHub Actions"]
+  },
+  {
+    "title": "Databases",
+    "skills": ["MySQL", "PostgreSQL", "MongoDB", "Redis"]
+  },
+  {
+    "title": "Tools",
+    "skills": ["VS Code", "Git", "Postman", "Swagger", "Docker Hub"]
+  },
+  {
+    "title": "Concepts",
+    "skills": ["Data Structures", "Algorithms", "OOP", "Design Patterns", "SOLID Principles", "REST API", "MVC Architecture", "Unit Testing"]
+  }
 ]
