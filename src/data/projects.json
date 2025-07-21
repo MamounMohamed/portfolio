@@ -79,6 +79,42 @@
         ],
         "link": "https://kaleemai.com/"
     },
+{
+  "id": 9,
+  "image": "https://mamounmohamed.github.io/portfolio/",
+  "title": "Green Saudi Application (Backend)",
+  "subtitle": "FREELANCE PROJECT",
+  "status": "Completed",
+  "description": "Backend service for an environmental mobile app supporting volunteer activities, product features, courses, and location-based services.",
+  "detailedDescription": "Developed the backend for an environmental awareness mobile app. The system enables users to request planting services, participate in campaigns, browse and purchase products, and access free learning resources. It also includes admin functionality and map-based features.",
+  "techStack": [
+    "Java",
+    "Spring Boot",
+    "Spring Data JPA",
+    "PostgreSQL",
+    "Swagger",
+    "Docker",
+    "Hostinger VPS"
+  ],
+  "features": [
+    "RESTful API for mobile app",
+    "Admin request and product management",
+    "User planting requests",
+    "Volunteer campaigns and tracking",
+    "Free course campaigns",
+    "Location-based services and map integration",
+    "API documentation with Swagger"
+  ],
+  "responsibilities": [
+    "Developed REST APIs using Spring Boot for core app features",
+    "Integrated location-based features and map support",
+    "Implemented admin features for managing content and requests",
+    "Added support for free course campaigns and product workflows",
+    "Documented the API using Swagger",
+    "Deployed the backend on Hostinger VPS using Docker"
+  ],
+  "link": "https://srv863520.hstgr.cloud/swagger-ui/index.html"
+},
     {
         "id": "learning-management-system",
         "image": "https://mamounmohamed.github.io/portfolio/Qabed.png",
