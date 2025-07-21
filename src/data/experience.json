@@ -1,49 +1,56 @@
 [
-    {
-      "company": "Qabed",
-      "position": "Full Stack Developer",
-      "from": "2024-06-01",
-      "to": "present",
-      "responsibilities": [
-        "Collaborated with a team to deliver web applications using Next.js, React.js, and Laravel.",
-        "Developed and maintained full stack applications, ensuring integration between frontend and backend.",
-        "Deployed applications on cloud servers with VPS and reverse proxy setups for optimized performance."
-      ],
-      "associated_projects": [
-        {
-          "name": "Learning Management System",
-          "link": "/project/2"
-        },
-        {
-          "name": "School Learning Platform",
-          "link": "/project/3"
-        },
-        {
-          "name": "Multi-vendor Digital Library",
-          "link": "/project/4"
-        }
-      ]
-    },
-    {
-      "company": "Freelance Work",
-      "position": "Full Stack Developer",
-      "from": "2024-01-01",
-      "to": "present",
-      "responsibilities": [
-        "Built web platforms and internal tools using modern stacks such as Django, React.js, and Next.js.",
-        "Delivered solutions for government and educational sectors including inventory systems and learning platforms.",
-        "Managed full deployment workflows using Docker, Apache2, and cloud hosting environments."
-      ],
-      "associated_projects": [
-        {
-            "name" : "Braille Learning Platform",
-            "link" : "/project/1"
-        },
-        {
-            "name" : "Inventory Management System",
-            "link" : "/project/5"
-        }
-      ]
-    }
-  ]
-  
+  {
+    "company": "Qabed",
+    "position": "Full Stack Developer",
+    "from": "2024-06-01",
+    "to": "present",
+    "responsibilities": [
+      "Collaborated with a team to deliver web applications using Next.js, React.js, and Laravel.",
+      "Developed and maintained full stack applications, ensuring integration between frontend and backend.",
+      "Deployed applications on cloud servers with VPS and reverse proxy setups for optimized performance."
+    ],
+    "associated_projects": [
+      {
+        "name": "Kaleem Wellbeing Hub",
+        "link": "/project/kaleem-wellbeing-hub"
+      },
+      {
+        "name": "Learning Management System",
+        "link": "/project/learning-management-system"
+      },
+      {
+        "name": "School Learning Platform",
+        "link": "/project/fosol-api"
+      },
+      {
+        "name": "Multi-vendor Digital Library",
+        "link": "/project/abwab-api"
+      }
+    ]
+  },
+  {
+    "company": "Freelance Work",
+    "position": "Full Stack Developer",
+    "from": "2024-01-01",
+    "to": "present",
+    "responsibilities": [
+      "Built web platforms and internal tools using modern stacks such as Django, React.js, and Next.js.",
+      "Delivered solutions for government and educational sectors including inventory systems and learning platforms.",
+      "Managed full deployment workflows using Docker, Apache2, and cloud hosting environments."
+    ],
+    "associated_projects": [
+      {
+        "name": "Braille Learning Platform",
+        "link": "/project/braille-learning-platform"
+      },
+      {
+        "name": "Green Saudi Application",
+        "link": "/project/green-saudi-application"
+      },
+      {
+        "name": "Inventory Management System",
+        "link": "/project/inventory-management-system"
+      }
+    ]
+  }
+]
