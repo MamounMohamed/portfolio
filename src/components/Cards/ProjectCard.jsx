@@ -15,8 +15,7 @@ const ProjectCard = ({ id, image, title, subtitle, status, statusDescription, de
                     <span className=" bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm  border border-yellow-300">{status}</span>
 
                 )}
-
-                <p className="mt-2 text-gray-400 text-base text-left">{description}</p>
+                <p className="mt-2 text-gray-400 text-base text-left line-clamp-4">{description}</p>
             </div>
             <div className=" mt-auto px-6 pt-4 pb-2">
                 <Link to={`/project/${id}`} className="inline-block bg-blue-500 text-white py-2 px-3 rounded hover:bg-blue-800  overflow-hidden hover:translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,138,246,0.4)] transition transistion-all duration-300">
